@@ -10,6 +10,7 @@ def read_file_content(filename):
     # [assignment] Add your code here 
     story = open(filename, "r")
     return story.read()
+print(read_file_content("./story.txt"))
 
 
 def count_words():
